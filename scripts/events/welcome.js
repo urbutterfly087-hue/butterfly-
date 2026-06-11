@@ -27,18 +27,14 @@ module.exports = {
             const uid = user.userFbId;
 
             const text =
-`𝗛𝗘𝗬 ${name}
+`ʜᴇʏ ${🌸name🌸}
 ━━━━━━━━━━━━━━━━━━━━━━━
-𝗪𝗘𝗟𝗖𝗢𝗠𝗘 𝗧𝗢: ${threadName}
+ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ: ${threadName🤗}
 ━━━━━━━━━━━━━━━━━━━━━━━
-𝗨𝗜𝗗: ${uid}
+ᴜɪᴅ: ${uid}
 ━━━━━━━━━━━━━━━━━━━━━━━
-𝗔𝗗𝗗 𝗕𝗬: ${addedByName}
-━━━━━━━━━━━━━━━━━━━━━━━
-𝗣𝗟𝗘𝗔𝗦𝗘 𝗙𝗢𝗟𝗟𝗢𝗪 𝗔𝗟𝗟 𝗥𝗨𝗟𝗘𝗦 🖤
-━━━━━━━━━━━━━━━━━━━━━━━
-🖤🖤~𝗔𝗕𝗜𝗥~🖤🖤
-𝗙𝗕-https://www.facebook.com/Abir419`;
+ᴀᴅᴅ ʙʏ: ${addedByName}
+━━━━━━━━━━━━━━━━━━━━━━━`;
 
             message.send({
                 body: text,
