@@ -171,7 +171,7 @@ module.exports = {
 				);
 
 			return message.reply(
-`Hey ${boxPrefix}
+`Hey 
 
 🌐 System prefix: ${systemPrefix}
 🛸 Your box chat prefix: ${boxPrefix}
